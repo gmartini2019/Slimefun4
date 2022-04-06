@@ -186,7 +186,8 @@ public final class SlimefunItems {
     public static final SlimefunItemStack SWORD_OF_BEHEADING = new SlimefunItemStack("SWORD_OF_BEHEADING", Material.IRON_SWORD, "&6Sword of Beheading", "&7Beheading II", "", "&fHas a chance to behead Mobs", "&f(even a higher chance for Wither Skeletons)");
     public static final SlimefunItemStack BLADE_OF_VAMPIRES = new SlimefunItemStack("BLADE_OF_VAMPIRES", Material.GOLDEN_SWORD, "&cBlade of Vampires", "&7Life Steal I", "", "&fEverytime you attack something", "&fyou have a 45% chance to", "&frecover 2 Hearts of your Health");
     public static final SlimefunItemStack SEISMIC_AXE = new SlimefunItemStack("SEISMIC_AXE", Material.IRON_AXE, "&aSeismic Axe", "", "&7&oA portable Earthquake...", "", LoreBuilder.RIGHT_CLICK_TO_USE);
-
+    /*NEW ZEUS LIGHTINING */ 
+    public static final SlimefunItemStack ZEUS_LIGHTNING = new SlimefunItemStack("ZEUS_LIGHTNING", Material.TRIDENT, "&aZeus Lightining", "", "&7&oA portable Earthquake...", "", LoreBuilder.RIGHT_CLICK_TO_USE);
     static {
         GRANDMAS_WALKING_STICK.addUnsafeEnchantment(Enchantment.KNOCKBACK, 2);
         GRANDPAS_WALKING_STICK.addUnsafeEnchantment(Enchantment.KNOCKBACK, 5);
@@ -211,7 +212,7 @@ public final class SlimefunItems {
     public static final SlimefunItemStack COBALT_PICKAXE = new SlimefunItemStack("COBALT_PICKAXE", Material.IRON_PICKAXE, "&9Cobalt Pickaxe");
     public static final SlimefunItemStack PICKAXE_OF_VEIN_MINING = new SlimefunItemStack("PICKAXE_OF_VEIN_MINING", Material.DIAMOND_PICKAXE, "&ePickaxe of Vein Mining", "", "&fThis Pickaxe will dig out", "&fwhole Veins of Ores...");
     public static final SlimefunItemStack CLIMBING_PICK = new SlimefunItemStack("CLIMBING_PICK", Material.IRON_PICKAXE, "&bClimbing Pick", "", "&fAllows you to climb certain surfaces", "&fby right-clicking.", "&fEnchant this pick with Efficiency to", "&fclimb even faster!");
-
+    
     static {
         HERCULES_PICKAXE.addUnsafeEnchantment(Enchantment.DURABILITY, 5);
         HERCULES_PICKAXE.addUnsafeEnchantment(Enchantment.DIG_SPEED, 3);
@@ -375,7 +376,8 @@ public final class SlimefunItems {
     public static final SlimefunItemStack MAGICAL_BOOK_COVER = new SlimefunItemStack("MAGICAL_BOOK_COVER", Material.PAPER, "&6Magical Book Cover", "", "&a&oUsed for various Magic Books");
     public static final SlimefunItemStack MAGICAL_GLASS = new SlimefunItemStack("MAGICAL_GLASS", Material.GLASS_PANE, "&6Magical Glass", "", "&a&oUsed for various Magical Gadgets");
     public static final SlimefunItemStack SYNTHETIC_SHULKER_SHELL = new SlimefunItemStack("SYNTHETIC_SHULKER_SHELL", Material.SHULKER_SHELL, "&dSynthetic Shulker Shell", "", "&fThis item can be used in a", "&fworkbench like a normal Shulker Shell");
-
+   /* ENDER WAND */
+    public static final SlimefunItemStack ENDER_WAND = new SlimefunItemStack("ENDER_WAND", Material.STICK, "&dEnder Wand", "&This item can teleport you");
     /* Technical components */
     public static final SlimefunItemStack BASIC_CIRCUIT_BOARD = new SlimefunItemStack("BASIC_CIRCUIT_BOARD", Material.ACTIVATOR_RAIL, "&bBasic Circuit Board");
     public static final SlimefunItemStack ADVANCED_CIRCUIT_BOARD = new SlimefunItemStack("ADVANCED_CIRCUIT_BOARD", Material.POWERED_RAIL, "&bAdvanced Circuit Board");
