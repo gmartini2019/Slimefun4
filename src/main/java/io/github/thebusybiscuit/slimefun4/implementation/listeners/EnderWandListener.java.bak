@@ -19,6 +19,9 @@ import io.github.thebusybiscuit.slimefun4.implementation.items.weapons.EnderWand
  * @see EnderWand
  *
  */
+ 
+ /* This is the listener class for the aforementioned Ender wand, which has the ability to teleport any mob at a max of 50 blocks away, in any direction.
+ */
 public class EnderWandListener implements Listener {
 
     private EnderWand enderWand;
@@ -27,7 +30,7 @@ public class EnderWandListener implements Listener {
         plugin.getServer().getPluginManager().registerEvents(this, plugin);
         this.enderWand = enderWand;
     }
-
+/* Method responsible for teleporting entities away. */
     @EventHandler
     public void onBlockFall(EntityChangeBlockEvent e) {
         if (enderWand == null || enderWand.isDisabled()) {
